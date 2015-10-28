@@ -1,9 +1,7 @@
 box: debian
 build:
   steps:
-    - arjen/hugo-build@1.6.1:
-        theme: herring-cove
-        flags: --buildDrafts=true
+    - arjen/hugo-build@1.6.1
 deploy:
   steps:
     - lukevivier/gh-pages:
