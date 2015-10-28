@@ -1,3 +1,16 @@
-baseurl = "http://wenyiweb.cn/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseUrl= "http://cstkevin.github.io/" -- 发布时的博客url
+languageCode = "zh-cn" -- 语言（目前还没有发现有什么特殊的作用）
+title = "苦X工程师" -- 博客标题
+theme = "greyshade" -- 主题名
+Paginate = 10 -- 分页大小
+
+[author]
+name = "kevenxia"
+email = "xxxx@mail.com"
+
+[params]
+  githubName = "kevensya"
+  description = "Java,VC++,C++,ObjC,C#使用中" -- 博客的描述
+  disqusShortname = "crazykeven"
+  github_user = "kevensya"
+  excerpt_link = "[阅读全文]" -- 博客首页显示博客概要时代替Read More的文本
